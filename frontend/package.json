@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/react-scripts/scripts/start.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.js\" README.md"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.1",
+    "@fortawesome/fontawesome-svg-core": "1.2.30",
+    "@fortawesome/free-regular-svg-icons": "5.14.0",
+    "@fortawesome/free-solid-svg-icons": "5.14.0",
+    "@fortawesome/react-fontawesome": "0.1.11",
+    "classnames": "2.2.6",
+    "date-fns": "2.16.1",
+    "formik": "2.1.5",
+    "graphql": "^15.3.0",
+    "lodash": "4.17.20",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
+    "tachyons": "4.12.0",
+    "yup": "0.29.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
