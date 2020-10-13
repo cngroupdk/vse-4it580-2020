@@ -7,6 +7,7 @@ import { AboutPage } from 'src/pages/AboutPage';
 import { HomePage } from 'src/pages/HomePage';
 import { PageNotFound } from 'src/pages/PageNotFound';
 import { Practical01 } from 'src/pages/Practical01';
+import { Practical03 } from 'src/pages/Practical03';
 import { SignInPage } from 'src/pages/SignInPage';
 import { SignUpPage } from 'src/pages/SignUpPage';
 import { UserDetailPage } from 'src/pages/UserDetailPage';
@@ -20,7 +21,10 @@ export const route = {
   userDetail: (userName) => `/${userName}`,
 };
 
-export const PRACTICALS = [{ id: '01', PageComponent: Practical01 }];
+export const PRACTICALS = [
+  { id: '01', PageComponent: Practical01 },
+  { id: '03', PageComponent: Practical03 },
+];
 
 export function Routes() {
   return (
